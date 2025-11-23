@@ -5,7 +5,6 @@
 
         <meta charset="utf-8" />
         <title>Admin Dashboard </title>
-        <meta name="csrf-token" content="{{ csrf_token() }}" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
@@ -34,7 +33,6 @@
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
     </head>
     
-
     <body>
 
     <!-- <body data-layout="horizontal"> -->
@@ -55,7 +53,6 @@
             <!-- Start right Content here -->
             <!-- ============================================================== -->
 <div class="main-content">
-
 
      @yield('admin')
 <!-- End Page-content -->
@@ -89,9 +86,9 @@
         <!-- apexcharts -->
         <script src="{{ asset('backend/assets/libs/apexcharts/apexcharts.min.js') }}"></script>
 
-         <!-- Required datatable js -->
-         <script src="{{ asset('backend/assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
-         <script src="{{ asset('backend/assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+        <!-- Required datatable js -->
+        <script src="{{ asset('backend/assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
         <!-- Datatable init js -->
         <script src="{{ asset('backend/assets/js/pages/datatables.init.js') }}"></script> 
 
